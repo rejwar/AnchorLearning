@@ -452,3 +452,5 @@
 // pub struct Mint {
 //     pub mint_authority: COption<Pubkey>,
 // }
+
+// pub supply: u64,
