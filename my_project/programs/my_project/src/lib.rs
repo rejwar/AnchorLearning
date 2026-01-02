@@ -433,3 +433,15 @@
 // }
 
 // space = 8 + std::mem::size_of::<Data>()
+
+// #[account(zero_copy)]
+
+// pub struct InvalidData {
+//     pub items: String,
+// }
+
+// #[account(*zero_copy)]
+// pub struct ValidData {
+//     pub items: [u64; 100],
+//     pub name: [u8; 32],
+// }
