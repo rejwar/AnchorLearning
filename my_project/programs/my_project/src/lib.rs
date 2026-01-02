@@ -447,4 +447,8 @@
 // }
 
 // load_init() -> the note is opeded for the first time
-let account = &mut ctx.accounts.data_account.load_init()?;
+// let account = &mut ctx.accounts.data_account.load_init()?;
+
+// pub struct Mint {
+//     pub mint_authority: COption<Pubkey>,
+// }
