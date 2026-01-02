@@ -474,3 +474,14 @@
 // }
 
 // Account<'info , Mint>
+
+// #[derive(Accounts)]
+
+// pub struct Example<'info> {
+//     pub mint: Interface<'info, Mint>,
+// }
+
+// #[derive(Accounts)]
+// pub struct MyContext<'info> {
+//     // here is the constraints
+// }
