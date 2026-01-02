@@ -431,3 +431,5 @@
 //     a: u64,
 //     b: u64,
 // }
+
+// space = 8 + std::mem::size_of::<Data>()
