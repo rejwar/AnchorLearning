@@ -509,3 +509,18 @@
 // )]
 
 // pub user_pda: Account<'info , user>,
+
+// #[derive(Accounts)]
+// pub struct UpdataProfile<'info> {
+//     #[account (
+//         mut ,
+//         has_one = authority,
+//         seeds = [b"profile", authority.key.as_ref()],
+//         bump
+//     )]
+
+//     pub profile: Account<'info , Profile>,
+
+//     #[account(signer)]
+//     pub authority: AccountInfoM<'info>,
+// }
