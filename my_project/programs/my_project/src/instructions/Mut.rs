@@ -50,3 +50,11 @@
 //     pub payer: Signer<'info>,
 //     pub authority: Signer<'info>,
 // }
+
+// #[account(
+//     init,
+//     payer = user,
+//     space = 8 + 32,
+// )]
+
+// pub profile: Account<'info , Profile>,
