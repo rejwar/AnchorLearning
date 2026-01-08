@@ -236,7 +236,16 @@
 //     pub value: u64,
 // }
 
-#[account]
-pub struct Bigdata {
-    pub value: [u64; 100],
+// #[account]
+// pub struct Bigdata {
+//     pub value: [u64; 100],
+// }
+
+use anchor_lang::prelude::*;
+
+#[account(zero_copy)]
+#[repr(packed)]
+
+pub struct Counter {
+    pub value: u64,
 }
