@@ -95,3 +95,14 @@
 //     pub target: Pubkey,
 //     pub balance: u64,
 // }
+
+// #[derive(Accounts)]
+
+// pub struct UseVault<'info> {
+//     #[account (
+//         mut,
+//         has_one = target
+//     )]
+//     pub valut: Account<'info, Vault>,
+//     pub target: AccountInfo<'info>,
+// }
