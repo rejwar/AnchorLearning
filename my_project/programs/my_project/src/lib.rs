@@ -1,3 +1,10 @@
+pub mod constants;
+pub mod error;
+pub mod instructions;
+pub mod state;
+
+use anchor_lang::prelude::*;
+
 use anchor_lang::prelude::*;
 
 declare_id!("1WFDytM6NBBXRoHuBxAXLycbP8gwL1ehPzQAZ8Esoub");
@@ -11,6 +18,3 @@ pub mod my_project {
         Ok(())
     }
 }
-
-#[derive(Accounts)]
-pub struct Initialize {}
