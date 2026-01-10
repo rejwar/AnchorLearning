@@ -370,3 +370,8 @@
 // #[account(zero_copy)]
 
 // pub struct Order {....}
+
+// #[zero_copy]
+// pub struct Order {....}
+
+#[repr(packed)]
