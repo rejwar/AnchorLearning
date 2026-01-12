@@ -374,4 +374,12 @@
 // #[zero_copy]
 // pub struct Order {....}
 
-#[repr(packed)]
+// #[repr(packed)]
+
+// #[account(zero_copy)]
+// pub struct Config {
+//     pub authority: Pubkey,
+
+//     #[accessor(Pubkey)]
+//     pub secondary_authority: [u8; 32];
+// }
