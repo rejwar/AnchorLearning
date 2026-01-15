@@ -384,7 +384,17 @@
 //     pub secondary_authority: [u8; 32];
 // }
 
+// fn get_secondary_authority(&self) -> Pubkey
+// fn set_secondary_authority(&mut self , value: &Pubkey)
 
+// AccountLoader<'info , Data>
 
-fn get_secondary_authority(&self) -> Pubkey
-fn set_secondary_authority(&mut self , value: &Pubkey)
+// #[account (
+//     init,
+//     seeds = [b"data" , authority.key().as_ref()],
+//     bump,
+//     payer = authority,
+//     space = * 8 + std::mem::size_of::<data>(),
+// )]
+
+// pub data_account: AccountLoader<'info , Data>,
