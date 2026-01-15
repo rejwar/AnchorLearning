@@ -398,3 +398,7 @@
 // )]
 
 // pub data_account: AccountLoader<'info , Data>,
+
+// #[zero_copy]
+
+// pub struct event {....}
