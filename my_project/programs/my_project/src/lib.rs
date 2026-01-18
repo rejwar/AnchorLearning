@@ -74,3 +74,8 @@
 //         Ok(())
 //     }
 // }
+
+// #[error_code]
+// pub enum MyError {
+//     MissingAuthority,
+// }
