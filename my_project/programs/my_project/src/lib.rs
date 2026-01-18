@@ -111,3 +111,17 @@
 //     ctx.accounts.my_account.set_inner(data);
 //     Ok(())
 // }
+
+// #[event]
+
+// pub struct ValueUpdated {
+//     pub user: Pubkey,
+//     pub old_value: u64,
+//     pub new_value: u64,
+// }
+
+// emit!(ValueUpdated {
+//     user: ctx.accounts.signer.key(),
+//     old_value,
+//     new_value,
+// })
