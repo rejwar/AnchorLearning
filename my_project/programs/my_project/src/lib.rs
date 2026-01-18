@@ -9,6 +9,8 @@
 //     insufficientFunds,
 // }
 
-pub fn custom_instruction(ctx: Context<CustomInstruction>) -> Result<()> {
-    Ok(())
-}
+// pub fn custom_instruction(ctx: Context<CustomInstruction>) -> Result<()> {
+//     Ok(())
+// }
+
+pub type Result<T> = std::result::Result<T, error::Error>;
