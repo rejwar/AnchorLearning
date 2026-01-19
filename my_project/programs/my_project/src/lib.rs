@@ -413,3 +413,12 @@
 //     pub from: Pubkey,
 //     pub data: u64,
 // }
+
+// impl From<EventParams> for Event {
+//     fn from(params: EventParams) -> self {
+//         Event {
+//             from: params.from,
+//             data: params.data,
+//         }
+//     }
+// }
