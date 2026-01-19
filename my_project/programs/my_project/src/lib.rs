@@ -289,3 +289,10 @@
 // pub struct Data {
 //     pub data: [u8; 10232],
 // }
+
+// #[derive(Coppy, Clone, bytemuck::Zeroable, bytemuck::Pod)]
+// #[repr(C)]
+
+// struct Data {
+//     // --snap--
+// }
