@@ -366,3 +366,7 @@
 //     pub price: u64,
 //     pub quality: u64,
 // }
+
+// #[account(zero_copy)]
+
+// pub struct Order {....}
