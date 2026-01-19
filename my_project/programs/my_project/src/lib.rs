@@ -250,7 +250,14 @@
 //     pub value: u64,
 // }
 //zero copy
-#[account]
-pub struct Counter {
-    pub value: u64,
-}
+// #[account]
+// pub struct Counter {
+//     pub value: u64,
+// }
+
+// #[account(zero_copy)]
+// #[repr(packed)]
+
+// pub struct Counter {
+//     pub value: u64,
+// }
