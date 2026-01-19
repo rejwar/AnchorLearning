@@ -301,3 +301,20 @@
 // pub struct InstructionAccount<'info> {
 //     pub zero_copy_account: AccountLoader<'info , Data>
 // }
+// #[derive(Account)]
+// pub struct InstructionAccount<'info> {
+//     pub zero_copy_account: AccountLoader<'info, Data>,
+// }
+
+// #[derive(Accounts)]
+// pub struct Initialize<'info> {
+//     #[account (
+//         init,
+//         space = 8 + 10232,
+//         payer = payer ,
+//     )]
+//     pub data_account: AccountLoader<'info, Data>,
+//     #[account(mut)]
+//     pub payer: Signer<'info>,
+//     pub system_program: Program<'info, System>,
+// }
