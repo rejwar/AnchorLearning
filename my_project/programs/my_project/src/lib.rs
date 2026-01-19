@@ -261,3 +261,10 @@
 // pub struct Counter {
 //     pub value: u64,
 // }
+
+#[derive(Accounts)]
+
+pub struct Increment<'info> {
+    #[account(mut)]
+    pub counter: AccountLoader<'info, Counter>,
+}
