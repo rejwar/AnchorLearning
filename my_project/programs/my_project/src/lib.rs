@@ -262,9 +262,4 @@
 //     pub value: u64,
 // }
 
-#[derive(Accounts)]
-
-pub struct Increment<'info> {
-    #[account(mut)]
-    pub counter: AccountLoader<'info, Counter>,
-}
+এক্স
