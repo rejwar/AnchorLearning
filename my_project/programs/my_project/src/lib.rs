@@ -262,4 +262,17 @@
 //     pub value: u64,
 // }
 
-এক্স
+// #[derive(Accounts)]
+
+// pub struct Increment<'info> {
+//     #[account(mut)]
+//     pub counter: AccountLoader<'info, Counter>,
+// }
+
+// #[derive(Accounts)]
+
+// pub fn increment(ctx.Context<Increment> -> Result<()>) {
+//     let mut counter = ctx.accounts.counter.load_mut()?;
+//     counter.value +=1;
+//     Ok(())
+// }
