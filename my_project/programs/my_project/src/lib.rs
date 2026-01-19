@@ -296,3 +296,8 @@
 // struct Data {
 //     // --snap--
 // }
+
+// #[derive(Account)]
+// pub struct InstructionAccount<'info> {
+//     pub zero_copy_account: AccountLoader<'info , Data>
+// }
