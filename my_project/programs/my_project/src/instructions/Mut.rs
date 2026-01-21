@@ -133,3 +133,10 @@
 
 // pub user_token: Account <'info, TokenAccount>;
 // pub user: Signer<'info>
+
+// #[account(
+//     token::program = token_program
+// )]
+
+// pub user_token:Account<'info , TokenAccount>;
+// pub token_program: Program<'info , Token>;
