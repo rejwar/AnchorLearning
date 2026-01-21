@@ -161,3 +161,27 @@
 // )]
 
 // pub mint: Account<'info , Mint>
+
+// #[derive(Account)]
+// pub struct Deposit<'info> {
+//     pub user: Signer<'info>,
+
+//     #[account(
+//         mut,
+//         token::mint = mint,
+//         token::authority = user
+//     )]
+
+//     pub user_token:: Account<'info , TokenAccount>,
+
+//     #[account(
+//         mut,
+//         token::mint = mint
+//     )]
+
+//     pub vault_token = Account<'info, TokenAccount>,
+
+//     pub mint: Account<'info , Mint>,
+
+//     pub token_program: Program<'info , Token>
+// }
