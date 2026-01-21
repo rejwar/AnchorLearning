@@ -149,3 +149,9 @@
 // )]
 
 // pub user_token:Account<'info , TokenAccount>
+
+// #[account(
+//     token::program = token_program
+// )]
+
+// pub mint:Account<'info , Mint>
