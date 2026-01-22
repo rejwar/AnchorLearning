@@ -185,3 +185,11 @@
 
 //     pub token_program: Program<'info , Token>
 // }
+
+// #[account(
+//     mut,
+//     associated_token::mint = mint
+// )]
+
+// pub user_ata: Account<'info, TokenAccount>;
+// pub mint: Account<'info, Mint>;
