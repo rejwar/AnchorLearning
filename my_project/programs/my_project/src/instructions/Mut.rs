@@ -194,12 +194,20 @@
 // pub user_ata: Account<'info, TokenAccount>;
 // pub mint: Account<'info, Mint>;
 
+// #[account(
+//     init_if_needed,
+//     payer = user,
+//     associated_token::mint = user,
+//     *::token_program = token_program
+// )]
 
-#[account(
-    init_if_needed,
-    payer = user,
-    associated_token::mint = user,
-    *::token_program = token_program
-)]
+// pub user_ata: Account<'info , TokenAccount>;
 
-pub user_ata: Account<'info , TokenAccount>;
+// #[account(
+//     mut,
+//     token::mint,
+//     token::authority = user,
+//     *::token_program = token_program
+// )]
+
+// pub user_token: Account<'info , TokenAccount>;
