@@ -231,13 +231,13 @@
 // pub mint: Account<'info , TokenAccount>,
 // pub token_program: Program<'info, Toek
 
-#[derive(Accounts)]
-pub struct MintExtensionToken<'info> {
-    #[account(
-        mut,
-        extensions::token_program = token_2022_program,
+// #[derive(Accounts)]
+// pub struct MintExtensionToken<'info> {
+//     #[account(
+//         mut,
+//         extensions::token_program = token_2022_program,
 
-    )]
-    pub mint: InterfaceAccount<'info, Mint>,
-    pub token_2022_program: Program<'info, Token2022>,
-}
+//     )]
+//     pub mint: InterfaceAccount<'info, Mint>,
+//     pub token_2022_program: Program<'info, Token2022>,
+// }
