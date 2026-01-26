@@ -8,3 +8,11 @@
 
 // program = "swap.so"
 // upgradeable = true
+
+// pub fn emergency_upgrade(ctx: Context<AdminOnly>) -> Result<()> {
+//     require!(
+//         ctx.accounts.admin.key() == ctx.accounts.upgrade_authority.key(),
+//         CustomError::Unauthorized
+//     );
+//     Ok(())
+// }
