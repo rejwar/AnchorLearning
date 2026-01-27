@@ -24,6 +24,6 @@
 
 // pub items: Vec<u64>
 
-impl MyAccount {
-    pub const LEN: usize = 8 + 32 + 8;
-}
+// impl MyAccount {
+//     pub const LEN: usize = 8 + 32 + 8;
+// }
