@@ -20,5 +20,6 @@
 
 // space = 8 + 32 + 8 + 1
 
+// space = 8 + std::mem::size_of::<Data>()
 
-space = 8 + std::mem::size_of::<Data>()
+// pub items: Vec<u64>
