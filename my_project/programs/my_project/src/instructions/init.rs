@@ -35,3 +35,7 @@
 
 // #[account(init , payer = payer , space = 8 + ExampleAccount::INIT_SPACE)]
 // pub data: Account<'info , ExampleAccount>,
+
+// struct MyStruct {
+//     val: u16,
+// }
