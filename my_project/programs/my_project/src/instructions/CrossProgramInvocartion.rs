@@ -94,3 +94,15 @@
 // )]
 
 // pub mint_account: Account<'info , Mint>,
+
+// #[account(
+//     init,
+//     payer = payer,
+//     mint::decimals = 0,
+//     mint::authority = authority,
+
+//     extensions::group_member_pointer::authority = authority,
+//     extensions::group_member_pointer::member_address = group_member_pointer
+// )]
+
+// pub mint_account: Account<'info < Mint>,
