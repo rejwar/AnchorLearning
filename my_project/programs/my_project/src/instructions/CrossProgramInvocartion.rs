@@ -60,3 +60,13 @@
 // )]
 
 // pub mint_account: Account<'info , Mint>,
+
+// #[account(
+//     init,
+//     payer = admin,
+//     mint::decimals = 9,
+//     mint::authority = admin,
+//     extensions::permanent_delegate::delegate = admin
+// )]
+
+// pub mint_account:Account<'info, Mint>,
