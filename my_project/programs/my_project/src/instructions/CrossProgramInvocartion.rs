@@ -32,13 +32,12 @@
 //     pub lever_program: Program<'info, Lever>,
 // }
 
+// #[account(
+//     init,
+//     payer = admin,
+//     mint::decimals = 6,
+//     mint::authority  = admin,
+//     mint::freeae_authority = admin
+// )]
 
-#[account(
-    init,
-    payer = admin,
-    mint::decimals = 6,
-    mint::authority  = admin,
-    mint::freeae_authority = admin
-)]
-
-pub mint_account: Account<'info , Mint>,
+// pub mint_account: Account<'info , Mint>,
