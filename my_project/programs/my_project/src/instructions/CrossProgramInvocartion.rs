@@ -49,3 +49,14 @@
 // )]
 
 // pub user_token_account: Account<'info , TokenAccount>,
+
+// #[account(
+//     init,
+//     payer = user,
+//     mint::decimals = 9,
+//     mint::authority = user,
+
+//     extensions::close_authority::authority = user
+// )]
+
+// pub mint_account: Account<'info , Mint>,
